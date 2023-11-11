@@ -1,0 +1,28 @@
+.bold{
+    font-weight: 700;
+    font-size: 150%;
+}
+.container{
+    padding-bottom: 10%;
+}
+.bt-col{
+    background-color: black;
+}
+.bg-carousel{
+    background-image: url("img/bg-1.png");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 7%;
+}
+.bg-bg{
+    background-image: url("img/header-bg.png");
+    background-size: auto;
+}
+.container img{
+    width: 90%;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 5px rgb(178, 189, 199);
+}
