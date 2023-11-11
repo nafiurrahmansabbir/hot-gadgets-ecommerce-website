@@ -13,11 +13,13 @@
     
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 7%;
+    background-size: 6%;
 }
 .bg-bg{
-    background-image: url("img/header-bg.png");
-    background-size: auto;
+    background-image: url("img/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom ;
+    background-size: 10%;
 }
 .container img{
     width: 90%;
@@ -25,4 +27,51 @@
 .card{
     border: none;
     box-shadow: 5px 5px 5px rgb(178, 189, 199);
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-image: linear-gradient(90deg,orange, rgb(231, 209, 167));
+    
+}
+
+.see-all{
+    text-decoration: none;
+    color: orange;
+    
+}
+.color-bar{
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+}
+.orange-bg{
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+    border-radius: 10px;
+}
+.join-us{
+    height: 200px;
+    background-image: linear-gradient(to left, #FF9C35, #cebe7d);
+    border-radius: 10px;
+}
+.col-md-6{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.text-white{
+    color: #dc3545;
+}
+footer p{
+    font-size: 75%;
+    display: flex;
+    justify-content: center;
+    color: rgb(31, 29, 29);
 }
